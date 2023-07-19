@@ -14,9 +14,9 @@
   <div class="container mx-auto p-4">
     <slot />
   </div>
-  <span class="author container mx-auto p-4">
-    <strong>Developed by:</strong> Edson Arturo Rodriguez Govea</span
-  >
+  <p class="author container mx-auto p-4">
+    <strong>Developed by:</strong> Edson Arturo Rodriguez Govea
+  </p>
 </template>
 
 <style scoped>

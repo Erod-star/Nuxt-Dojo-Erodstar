@@ -19,7 +19,8 @@
     </p>
 
     <h4>Using the Nuxt server routes to fetch information with api keys</h4>
-    <div class="mb-2">{{ data }}</div>
+    <div class="mb-2">Mexican peso: {{ mxn }}</div>
+    <div class="mb-2">American dolar: {{ usd }}</div>
   </div>
 </template>
 
@@ -31,7 +32,8 @@
 
 // const { data } = await useFetch("/api/ninja");
 
-const { data } = await useFetch("/api/currency/GBP");
+const { data: mxn } = await useFetch("/api/currency/MXN");
+const { data: usd } = await useFetch("/api/currency/USD");
 </script>
 
 <style scoped>

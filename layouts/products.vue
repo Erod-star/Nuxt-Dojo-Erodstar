@@ -10,9 +10,9 @@
       <slot />
     </div>
 
-    <span class="author p-4">
+    <p class="author p-4">
       <strong>Developed by:</strong> Edson Arturo Rodriguez Govea
-    </span>
+    </p>
 
     <footer class="container mx-auto mt-3 p-4 flex justify-between border-t-2">
       <ul class="flex gap-4">
