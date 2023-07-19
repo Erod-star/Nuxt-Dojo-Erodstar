@@ -17,7 +17,9 @@
       Lorem nostrud consectetur consectetur. Dolore nostrud eu amet cupidatat
       pariatur esse.
     </p>
-    <div>{{ data }}</div>
+
+    <h4>Using the Nuxt server routes to fetch information with api keys</h4>
+    <div class="mb-2">{{ data }}</div>
   </div>
 </template>
 
@@ -36,6 +38,10 @@ const { data } = await useFetch("/api/currency/GBP");
 h2 {
   margin-bottom: 20px;
   font-size: 36px;
+}
+h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 p {
   margin: 20px 0;

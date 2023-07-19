@@ -14,10 +14,16 @@
   <div class="container mx-auto p-4">
     <slot />
   </div>
+  <span class="author container mx-auto p-4">
+    <strong>Developed by:</strong> Edson Arturo Rodriguez Govea</span
+  >
 </template>
 
 <style scoped>
 .router-link-exact-active {
   color: #12b488;
+}
+.author {
+  font-style: italic;
 }
 </style>
